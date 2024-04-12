@@ -11,9 +11,4 @@ fn main() {
 
     let nulus = ();
     println!("Woopss {:?}", nulus); // {:#?} for pretty-print
-
-    print!("Max of usize is {}", usize::MAX);
-    println!(" and Min is {}", usize::MIN);
-    print!("Max of isize is {}", isize::MAX);
-    println!(" and Min is {}", isize::MIN);
 }
