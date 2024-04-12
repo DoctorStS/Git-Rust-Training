@@ -8,4 +8,7 @@ fn main() {
     };
     let num3 = num + num;
     println!("Sum of {num} and {num} is {num3:?}");
+
+    let nulus = ();
+    println!("Woopss {:?}", nulus); // {:#?} for pretty-print
 }
